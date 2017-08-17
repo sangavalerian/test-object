@@ -1,0 +1,24 @@
+$fn=20;
+height=6;
+diameter1=12;
+diameter2=14;
+difference(){
+    cylinder(d1=diameter1,d2=diameter2,h=height,center=true);
+    cylinder(d1=diameter/8,d2=diameter2/5,h=height,$fn=6,center=true);
+    translate([5,3,-6])cube([2,2,10]);
+     translate([3,-7,-6])cube([2,2,10]);
+     translate([-7,3,-6])cube([2,2,10]);
+     translate([3,5,-6])cube([2,2,10]);
+     //translate([7,7,-6])cube([2,2,10]);
+     translate([-6,4,-6])cube([2,2,10]);
+     translate([-5,5,-6])cube([2,2,10]);
+     translate([5,-5,-6])cube([2,2,10]);
+     translate([6,-2.8,-7])cube([2,2,10]);
+     translate([5,-4,-6])cube([2,2,10]);
+     translate([3,-6,-6])cube([2,2,10]);
+     translate([-5,-7,-7])cube([2,2,10]);
+     translate([-6,-5,-6])cube([2,2,10]);
+     translate([0.6,-8,-6])cube([2,2,10]);
+     //translate([0.3,-7,-6])cube([2,2,10]);
+     translate([-7,0.9,-6])cube([2,2,10]);
+}
